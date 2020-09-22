@@ -9,6 +9,9 @@
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
   <style>
     /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    body{
+      /*font-family: initial;*/
+    }
     .navbar {
       margin-bottom: 50px;
       border-radius: 0;
@@ -19,14 +22,16 @@
     }
     /* Remove the jumbotron's default bottom margin */ 
      .jumbotron {
+      margin-left: 8%;
       margin-bottom: 0;
       /*margin-top: 100px;*/
       height: 200px;
       background: url('img/me201912.JPG') 0% 34%;
       /*background: url('img/snow.jpeg') 50%;*/
-      background-size:75%;
+      background-size:74%;
       background-repeat:no-repeat;
       /*margin-bottom: 3.5%;*/
+      border-radius: 0px;
     }
 
    .blank{
@@ -34,6 +39,11 @@
    }
    .img-box{
     margin: 10px;
+   }
+   .photo-updates{
+    font-family: monospace;
+    margin-left: 3px;
+    margin-right: 3px;
    }
     /* Add a gray background color and some padding to the footer */
     footer {
@@ -66,7 +76,6 @@
     </div> 
 
     <div class="col-sm-8 text-left"> 
-       <!-- <h1 style="color: salmon;font-family: fantasy;">Welcome!</h1>-->
       <h1 style="color: #9bafba;font-family: fantasy; font-size: 2.1rem">Welcome!</h1>
 
       <hr>
@@ -80,6 +89,7 @@ Knowledge Discovery and Text Mining<br/>
 Social Media Analysis
       </p>
       <h4>Updates</h4>
+      <div class="">
       . . .<br/>
         07/2020  &nbsp One paper accepted by CIKM 2020. <br/>
         06/2020  &nbsp I joined Yahoo Research as a summer intern!  <br/>
@@ -98,25 +108,24 @@ Social Media Analysis
         Xu Yang, Guo Liu, <u>Songgaojun Deng</u>, et al. Exploration of a mechanism to form bionic, self-growing and self-organizing neural network. Artificial Intelligence Review (2018). <a href="https://doi.org/10.1007/s10462-018-9626-2">link</a>
       </p> -->
       <br/>
+      </div>
     </div>
 
     <div class="col-sm-3 sidenav">
       <div class="well">
-        <p style="color: red"> Photos</p>
+        <p style="color: red; font-family: monospace; font-size: large;"> Photos</p>
       </div>
-      <div class="well">
-        <p style="text-align: left; font-size: small;"> Presenting at KDD2019. Anchorage, Alaska USA.
-August 4 - 8, 2019. </p>
-      <div class="img-box">
-          <img src="img/kdd19-talk.JPG">
+      <div class="well photo-updates">
+        <p style="text-align: left; font-size: small; font-family: monospace"> Presenting at KDD2019. Anchorage, Alaska USA. August 4 - 8, 2019. </p>
+        <div class="img-box">
+            <img src="img/kdd19-talk.JPG">
+          </div>
+        <div class="img-box">
+          <img src="img/kdd19-poster.JPG" ">
         </div>
-      <div class="img-box">
-        <img src="img/kdd19-poster.JPG" ">
       </div>
-        
 
-        
-      </div>
+
     </div>
   </div>
 </div>
