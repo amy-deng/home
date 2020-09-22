@@ -13,19 +13,27 @@
       margin-bottom: 50px;
       border-radius: 0;
     }
-    
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
     /* Remove the jumbotron's default bottom margin */ 
      .jumbotron {
       margin-bottom: 0;
-      /*height: 340px;*/
-      /*background: url('img/wolf.jpeg') 50%;*/
+      /*margin-top: 100px;*/
+      height: 200px;
+      background: url('img/me201912.JPG') 0% 34%;
       /*background: url('img/snow.jpeg') 50%;*/
-      background-size:70%;
+      background-size:75%;
       background-repeat:no-repeat;
       /*margin-bottom: 3.5%;*/
     }
+
    .blank{
         height: 30px;
+   }
+   .img-box{
+    margin: 10px;
    }
     /* Add a gray background color and some padding to the footer */
     footer {
@@ -41,8 +49,8 @@
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Amy S. Deng</h1>      
-    <p style="font-family: fantasy;">Adventure, discover and progress</p>
+    <h1 style="color: white">Amy S. Deng</h1>      
+    <p style="font-family: fantasy; color: white">Adventure, discover and progress</p>
   </div>
 </div>
 
@@ -50,12 +58,13 @@
 
 <div class="container-fluid text-center">    
   <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="https://github.com/amy-deng">[Github]</a></p>
+
+ 
+    <div class="col-sm-1 sidenav">
+      <p><a href="https://github.com/amy-deng" >[Github]</a></p>
       <p><a href="https://scholar.google.com/citations?user=RtzagbgAAAAJ&hl=en">[Google Scholar]</a></p>
-      <!-- <p><a href="cv.html">[CV]</a></p> -->
-      <!-- <p><a href="#">Research</a></p> -->
-    </div>
+    </div> 
+
     <div class="col-sm-8 text-left"> 
        <!-- <h1 style="color: salmon;font-family: fantasy;">Welcome!</h1>-->
       <h1 style="color: #66ccff;font-family: fantasy;">Welcome!</h1>
@@ -63,7 +72,7 @@
       <hr>
       <h4>About me</h4>
       <p>
-        I am a third year Ph.D. candidate in the Department of Computer Science at Stevens Institute of Technology, supervised by <a href="http://people.cs.vt.edu/yning/">Dr. Yue Ning</a>. My research interests are  machine learning, data analytics, and social media analysis motivated by real-world problems in social informatics and health informatics.</p>
+        My name is <i>Songgaojun Deng</i>, and my preferred name is <i>Amy</i>. I am a third-year Ph.D. candidate in the <a href="https://www.stevens.edu/schaefer-school-engineering-science/departments/computer-science">Department of Computer Science at Stevens Institute of Technology</a>, supervised by <a href="http://people.cs.vt.edu/yning/">Dr. Yue Ning</a>. My research interests are  machine learning, data analytics, and social media analysis motivated by real-world problems in social informatics and health informatics.</p>
       <hr>
       <h4>Research interests</h4>
       <p>Machine Learning<br/>
@@ -73,6 +82,7 @@ Social Media Analysis
       <h4>Updates</h4>
       . . .<br/>
         07/2020  &nbsp One paper accepted by CIKM 2020. <br/>
+        06/2020  &nbsp I joined Yahoo Research as a summer intern!  <br/>
         06/2019  &nbsp Received KDD 2020 student travel award.  <br/>
         06/2020  &nbsp One paper accepted by KDD 2020. <br/>
         09/2019  &nbsp Received Women in Machine Learning (WiML @ NeurIPS 2019) travel grant.  <br/>
@@ -89,19 +99,31 @@ Social Media Analysis
       </p> -->
       <br/>
     </div>
-    <div class="col-sm-2 sidenav">
+
+    <div class="col-sm-3 sidenav">
       <div class="well">
-        <p> </p>
+        <p style="color: red"> Photos</p>
       </div>
       <div class="well">
-        <p> </p>
+        <p style="text-align: left; font-size: small;"> Presenting at KDD2019. Anchorage, Alaska USA.
+August 4 - 8, 2019. </p>
+      <div class="img-box">
+          <img src="img/kdd19-talk.JPG">
+        </div>
+      <div class="img-box">
+        <img src="img/kdd19-poster.JPG" ">
+      </div>
+        
+
+        
       </div>
     </div>
   </div>
 </div>
 <hr>
 <footer class="container-fluid text-center">
-  <p>Copyright © Amy:D</p>
+  <p>Copyright © Amy:D &nbsp Email: sdeng4 AT stevens.edu
+</p>
 </footer>
 
 </body>
